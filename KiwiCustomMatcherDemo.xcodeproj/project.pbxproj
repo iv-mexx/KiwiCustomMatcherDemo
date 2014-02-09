@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17A28685A71A41B791332F87 /* libPods-KiwiCusomtMatcherDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE69A0630D4F659BCFDEB6 /* libPods-KiwiCusomtMatcherDemoTests.a */; };
 		5B463E7118A7E6EF00B9B59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7018A7E6EF00B9B59C /* Foundation.framework */; };
 		5B463E7318A7E6EF00B9B59C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7218A7E6EF00B9B59C /* CoreGraphics.framework */; };
 		5B463E7518A7E6EF00B9B59C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7418A7E6EF00B9B59C /* UIKit.framework */; };
-		5B463E7B18A7E6EF00B9B59C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B463E7918A7E6EF00B9B59C /* InfoPlist.strings */; };
-		5B463E7D18A7E6EF00B9B59C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463E7C18A7E6EF00B9B59C /* main.m */; };
-		5B463E8118A7E6EF00B9B59C /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463E8018A7E6EF00B9B59C /* IVAppDelegate.m */; };
-		5B463E8318A7E6EF00B9B59C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B463E8218A7E6EF00B9B59C /* Images.xcassets */; };
 		5B463E8A18A7E6EF00B9B59C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E8918A7E6EF00B9B59C /* XCTest.framework */; };
 		5B463E8B18A7E6EF00B9B59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7018A7E6EF00B9B59C /* Foundation.framework */; };
 		5B463E8C18A7E6EF00B9B59C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7418A7E6EF00B9B59C /* UIKit.framework */; };
-		5B463E9418A7E6EF00B9B59C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B463E9218A7E6EF00B9B59C /* InfoPlist.strings */; };
-		5B463EA118A7E70B00B9B59C /* IVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EA018A7E70B00B9B59C /* IVUser.m */; };
-		5B463EA318A7E88B00B9B59C /* IVUserSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EA218A7E88B00B9B59C /* IVUserSpecs.m */; };
-		5B463EA618A7E8A400B9B59C /* IVUserMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EA518A7E8A400B9B59C /* IVUserMatcher.m */; };
+		5B463EB218A7EE9A00B9B59C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B463EA818A7EE9A00B9B59C /* InfoPlist.strings */; };
+		5B463EB318A7EE9A00B9B59C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B463EAA18A7EE9A00B9B59C /* Images.xcassets */; };
+		5B463EB418A7EE9A00B9B59C /* IVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EAC18A7EE9A00B9B59C /* IVAppDelegate.m */; };
+		5B463EB518A7EE9A00B9B59C /* IVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EAE18A7EE9A00B9B59C /* IVUser.m */; };
+		5B463EB718A7EE9A00B9B59C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EB118A7EE9A00B9B59C /* main.m */; };
+		5B463EBF18A7EEA200B9B59C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B463EB918A7EEA200B9B59C /* InfoPlist.strings */; };
+		5B463EC018A7EEA200B9B59C /* IVUserMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EBC18A7EEA200B9B59C /* IVUserMatcher.m */; };
+		5B463EC118A7EEA200B9B59C /* IVUserSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EBD18A7EEA200B9B59C /* IVUserSpecs.m */; };
+		D298B33E804148E0A13B3F9E /* libPods-KiwiCustomMatcherDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A08C6D3F9EA48DAA7C63065 /* libPods-KiwiCustomMatcherDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,28 +35,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A08C6D3F9EA48DAA7C63065 /* libPods-KiwiCustomMatcherDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiCustomMatcherDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CE69A0630D4F659BCFDEB6 /* libPods-KiwiCusomtMatcherDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiCusomtMatcherDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B463E6D18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCusomtMatcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF4C27D4C804789BBD930B9 /* Pods-KiwiCustomMatcherDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiCustomMatcherDemoTests.xcconfig"; path = "Pods/Pods-KiwiCustomMatcherDemoTests.xcconfig"; sourceTree = "<group>"; };
+		5B463E6D18A7E6EF00B9B59C /* KiwiCustomMatcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCustomMatcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B463E7018A7E6EF00B9B59C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B463E7218A7E6EF00B9B59C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5B463E7418A7E6EF00B9B59C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B463E7818A7E6EF00B9B59C /* KiwiCusomtMatcherDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiCusomtMatcherDemo-Info.plist"; sourceTree = "<group>"; };
-		5B463E7A18A7E6EF00B9B59C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B463E7C18A7E6EF00B9B59C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B463E7E18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiCusomtMatcherDemo-Prefix.pch"; sourceTree = "<group>"; };
-		5B463E7F18A7E6EF00B9B59C /* IVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVAppDelegate.h; sourceTree = "<group>"; };
-		5B463E8018A7E6EF00B9B59C /* IVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVAppDelegate.m; sourceTree = "<group>"; };
-		5B463E8218A7E6EF00B9B59C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B463E8818A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiCusomtMatcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B463E8818A7E6EF00B9B59C /* KiwiCustomMatcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiCustomMatcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B463E8918A7E6EF00B9B59C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5B463E9118A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiCusomtMatcherDemoTests-Info.plist"; sourceTree = "<group>"; };
-		5B463E9318A7E6EF00B9B59C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B463E9F18A7E70B00B9B59C /* IVUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVUser.h; sourceTree = "<group>"; };
-		5B463EA018A7E70B00B9B59C /* IVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUser.m; sourceTree = "<group>"; };
-		5B463EA218A7E88B00B9B59C /* IVUserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUserSpecs.m; sourceTree = "<group>"; };
-		5B463EA418A7E8A400B9B59C /* IVUserMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVUserMatcher.h; sourceTree = "<group>"; };
-		5B463EA518A7E8A400B9B59C /* IVUserMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUserMatcher.m; sourceTree = "<group>"; };
-		D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiCusomtMatcherDemoTests.xcconfig"; path = "Pods/Pods-KiwiCusomtMatcherDemoTests.xcconfig"; sourceTree = "<group>"; };
+		5B463EA918A7EE9A00B9B59C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B463EAA18A7EE9A00B9B59C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B463EAB18A7EE9A00B9B59C /* IVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVAppDelegate.h; sourceTree = "<group>"; };
+		5B463EAC18A7EE9A00B9B59C /* IVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVAppDelegate.m; sourceTree = "<group>"; };
+		5B463EAD18A7EE9A00B9B59C /* IVUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVUser.h; sourceTree = "<group>"; };
+		5B463EAE18A7EE9A00B9B59C /* IVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUser.m; sourceTree = "<group>"; };
+		5B463EAF18A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KiwiCustomMatcherDemo-Info.plist"; sourceTree = "<group>"; };
+		5B463EB018A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KiwiCustomMatcherDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5B463EB118A7EE9A00B9B59C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B463EBA18A7EEA200B9B59C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B463EBB18A7EEA200B9B59C /* IVUserMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVUserMatcher.h; sourceTree = "<group>"; };
+		5B463EBC18A7EEA200B9B59C /* IVUserMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUserMatcher.m; sourceTree = "<group>"; };
+		5B463EBD18A7EEA200B9B59C /* IVUserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUserSpecs.m; sourceTree = "<group>"; };
+		5B463EBE18A7EEA200B9B59C /* KiwiCustomMatcherDemoTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KiwiCustomMatcherDemoTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 				5B463E8A18A7E6EF00B9B59C /* XCTest.framework in Frameworks */,
 				5B463E8C18A7E6EF00B9B59C /* UIKit.framework in Frameworks */,
 				5B463E8B18A7E6EF00B9B59C /* Foundation.framework in Frameworks */,
-				17A28685A71A41B791332F87 /* libPods-KiwiCusomtMatcherDemoTests.a in Frameworks */,
+				D298B33E804148E0A13B3F9E /* libPods-KiwiCustomMatcherDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,19 +88,19 @@
 		5B463E6418A7E6EF00B9B59C = {
 			isa = PBXGroup;
 			children = (
-				5B463E7618A7E6EF00B9B59C /* KiwiCusomtMatcherDemo */,
-				5B463E8F18A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests */,
+				5B463EA718A7EE9A00B9B59C /* KiwiCustomMatcherDemo */,
+				5B463EB818A7EEA200B9B59C /* KiwiCustomMatcherDemoTests */,
 				5B463E6F18A7E6EF00B9B59C /* Frameworks */,
 				5B463E6E18A7E6EF00B9B59C /* Products */,
-				D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */,
+				3BF4C27D4C804789BBD930B9 /* Pods-KiwiCustomMatcherDemoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		5B463E6E18A7E6EF00B9B59C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B463E6D18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo.app */,
-				5B463E8818A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.xctest */,
+				5B463E6D18A7E6EF00B9B59C /* KiwiCustomMatcherDemo.app */,
+				5B463E8818A7E6EF00B9B59C /* KiwiCustomMatcherDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,60 +113,45 @@
 				5B463E7418A7E6EF00B9B59C /* UIKit.framework */,
 				5B463E8918A7E6EF00B9B59C /* XCTest.framework */,
 				30CE69A0630D4F659BCFDEB6 /* libPods-KiwiCusomtMatcherDemoTests.a */,
+				2A08C6D3F9EA48DAA7C63065 /* libPods-KiwiCustomMatcherDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B463E7618A7E6EF00B9B59C /* KiwiCusomtMatcherDemo */ = {
+		5B463EA718A7EE9A00B9B59C /* KiwiCustomMatcherDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5B463E7F18A7E6EF00B9B59C /* IVAppDelegate.h */,
-				5B463E8018A7E6EF00B9B59C /* IVAppDelegate.m */,
-				5B463E8218A7E6EF00B9B59C /* Images.xcassets */,
-				5B463E7718A7E6EF00B9B59C /* Supporting Files */,
-				5B463E9F18A7E70B00B9B59C /* IVUser.h */,
-				5B463EA018A7E70B00B9B59C /* IVUser.m */,
+				5B463EA818A7EE9A00B9B59C /* InfoPlist.strings */,
+				5B463EAA18A7EE9A00B9B59C /* Images.xcassets */,
+				5B463EAB18A7EE9A00B9B59C /* IVAppDelegate.h */,
+				5B463EAC18A7EE9A00B9B59C /* IVAppDelegate.m */,
+				5B463EAD18A7EE9A00B9B59C /* IVUser.h */,
+				5B463EAE18A7EE9A00B9B59C /* IVUser.m */,
+				5B463EAF18A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Info.plist */,
+				5B463EB018A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Prefix.pch */,
+				5B463EB118A7EE9A00B9B59C /* main.m */,
 			);
-			path = KiwiCusomtMatcherDemo;
+			path = KiwiCustomMatcherDemo;
 			sourceTree = "<group>";
 		};
-		5B463E7718A7E6EF00B9B59C /* Supporting Files */ = {
+		5B463EB818A7EEA200B9B59C /* KiwiCustomMatcherDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B463E7818A7E6EF00B9B59C /* KiwiCusomtMatcherDemo-Info.plist */,
-				5B463E7918A7E6EF00B9B59C /* InfoPlist.strings */,
-				5B463E7C18A7E6EF00B9B59C /* main.m */,
-				5B463E7E18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo-Prefix.pch */,
+				5B463EB918A7EEA200B9B59C /* InfoPlist.strings */,
+				5B463EBB18A7EEA200B9B59C /* IVUserMatcher.h */,
+				5B463EBC18A7EEA200B9B59C /* IVUserMatcher.m */,
+				5B463EBD18A7EEA200B9B59C /* IVUserSpecs.m */,
+				5B463EBE18A7EEA200B9B59C /* KiwiCustomMatcherDemoTests-Info.plist */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5B463E8F18A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				5B463E9018A7E6EF00B9B59C /* Supporting Files */,
-				5B463EA218A7E88B00B9B59C /* IVUserSpecs.m */,
-				5B463EA418A7E8A400B9B59C /* IVUserMatcher.h */,
-				5B463EA518A7E8A400B9B59C /* IVUserMatcher.m */,
-			);
-			path = KiwiCusomtMatcherDemoTests;
-			sourceTree = "<group>";
-		};
-		5B463E9018A7E6EF00B9B59C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B463E9118A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests-Info.plist */,
-				5B463E9218A7E6EF00B9B59C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = KiwiCustomMatcherDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B463E6C18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo */ = {
+		5B463E6C18A7E6EF00B9B59C /* KiwiCustomMatcherDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B463E9918A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCusomtMatcherDemo" */;
+			buildConfigurationList = 5B463E9918A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCustomMatcherDemo" */;
 			buildPhases = (
 				5B463E6918A7E6EF00B9B59C /* Sources */,
 				5B463E6A18A7E6EF00B9B59C /* Frameworks */,
@@ -175,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = KiwiCusomtMatcherDemo;
+			name = KiwiCustomMatcherDemo;
 			productName = KiwiCusomtMatcherDemo;
-			productReference = 5B463E6D18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo.app */;
+			productReference = 5B463E6D18A7E6EF00B9B59C /* KiwiCustomMatcherDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5B463E8718A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests */ = {
+		5B463E8718A7E6EF00B9B59C /* KiwiCustomMatcherDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B463E9C18A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCusomtMatcherDemoTests" */;
+			buildConfigurationList = 5B463E9C18A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCustomMatcherDemoTests" */;
 			buildPhases = (
 				9ACDF474C96A46DEA4B29390 /* Check Pods Manifest.lock */,
 				5B463E8418A7E6EF00B9B59C /* Sources */,
@@ -195,9 +181,9 @@
 			dependencies = (
 				5B463E8E18A7E6EF00B9B59C /* PBXTargetDependency */,
 			);
-			name = KiwiCusomtMatcherDemoTests;
+			name = KiwiCustomMatcherDemoTests;
 			productName = KiwiCusomtMatcherDemoTests;
-			productReference = 5B463E8818A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.xctest */;
+			productReference = 5B463E8818A7E6EF00B9B59C /* KiwiCustomMatcherDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B463E6818A7E6EF00B9B59C /* Build configuration list for PBXProject "KiwiCusomtMatcherDemo" */;
+			buildConfigurationList = 5B463E6818A7E6EF00B9B59C /* Build configuration list for PBXProject "KiwiCustomMatcherDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -227,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B463E6C18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo */,
-				5B463E8718A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests */,
+				5B463E6C18A7E6EF00B9B59C /* KiwiCustomMatcherDemo */,
+				5B463E8718A7E6EF00B9B59C /* KiwiCustomMatcherDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,8 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B463E7B18A7E6EF00B9B59C /* InfoPlist.strings in Resources */,
-				5B463E8318A7E6EF00B9B59C /* Images.xcassets in Resources */,
+				5B463EB218A7EE9A00B9B59C /* InfoPlist.strings in Resources */,
+				5B463EB318A7EE9A00B9B59C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B463E9418A7E6EF00B9B59C /* InfoPlist.strings in Resources */,
+				5B463EBF18A7EEA200B9B59C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiCusomtMatcherDemoTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiCustomMatcherDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9ACDF474C96A46DEA4B29390 /* Check Pods Manifest.lock */ = {
@@ -291,9 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B463E7D18A7E6EF00B9B59C /* main.m in Sources */,
-				5B463EA118A7E70B00B9B59C /* IVUser.m in Sources */,
-				5B463E8118A7E6EF00B9B59C /* IVAppDelegate.m in Sources */,
+				5B463EB418A7EE9A00B9B59C /* IVAppDelegate.m in Sources */,
+				5B463EB718A7EE9A00B9B59C /* main.m in Sources */,
+				5B463EB518A7EE9A00B9B59C /* IVUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B463EA618A7E8A400B9B59C /* IVUserMatcher.m in Sources */,
-				5B463EA318A7E88B00B9B59C /* IVUserSpecs.m in Sources */,
+				5B463EC118A7EEA200B9B59C /* IVUserSpecs.m in Sources */,
+				5B463EC018A7EEA200B9B59C /* IVUserMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,24 +297,24 @@
 /* Begin PBXTargetDependency section */
 		5B463E8E18A7E6EF00B9B59C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B463E6C18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo */;
+			target = 5B463E6C18A7E6EF00B9B59C /* KiwiCustomMatcherDemo */;
 			targetProxy = 5B463E8D18A7E6EF00B9B59C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B463E7918A7E6EF00B9B59C /* InfoPlist.strings */ = {
+		5B463EA818A7EE9A00B9B59C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B463E7A18A7E6EF00B9B59C /* en */,
+				5B463EA918A7EE9A00B9B59C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5B463E9218A7E6EF00B9B59C /* InfoPlist.strings */ = {
+		5B463EB918A7EEA200B9B59C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B463E9318A7E6EF00B9B59C /* en */,
+				5B463EBA18A7EEA200B9B59C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -414,9 +400,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KiwiCusomtMatcherDemo/KiwiCusomtMatcherDemo-Prefix.pch";
-				INFOPLIST_FILE = "KiwiCusomtMatcherDemo/KiwiCusomtMatcherDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KiwiCustomMatcherDemo/KiwiCustomMatcherDemo-Prefix.pch";
+				INFOPLIST_FILE = "KiwiCustomMatcherDemo/KiwiCustomMatcherDemo-Info.plist";
+				PRODUCT_NAME = KiwiCustomMatcherDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -427,32 +413,32 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KiwiCusomtMatcherDemo/KiwiCusomtMatcherDemo-Prefix.pch";
-				INFOPLIST_FILE = "KiwiCusomtMatcherDemo/KiwiCusomtMatcherDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KiwiCustomMatcherDemo/KiwiCustomMatcherDemo-Prefix.pch";
+				INFOPLIST_FILE = "KiwiCustomMatcherDemo/KiwiCustomMatcherDemo-Info.plist";
+				PRODUCT_NAME = KiwiCustomMatcherDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		5B463E9D18A7E6EF00B9B59C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */;
+			baseConfigurationReference = 3BF4C27D4C804789BBD930B9 /* Pods-KiwiCustomMatcherDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiCusomtMatcherDemo.app/KiwiCusomtMatcherDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiCustomMatcherDemo.app/KiwiCustomMatcherDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KiwiCusomtMatcherDemo/KiwiCusomtMatcherDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "KiwiCustomMatcherDemo/KiwiCustomMatcherDemo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "KiwiCusomtMatcherDemoTests/KiwiCusomtMatcherDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "KiwiCustomMatcherDemoTests/KiwiCustomMatcherDemoTests-Info.plist";
+				PRODUCT_NAME = KiwiCustomMatcherDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,19 +446,19 @@
 		};
 		5B463E9E18A7E6EF00B9B59C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */;
+			baseConfigurationReference = 3BF4C27D4C804789BBD930B9 /* Pods-KiwiCustomMatcherDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiCusomtMatcherDemo.app/KiwiCusomtMatcherDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiCustomMatcherDemo.app/KiwiCustomMatcherDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KiwiCusomtMatcherDemo/KiwiCusomtMatcherDemo-Prefix.pch";
-				INFOPLIST_FILE = "KiwiCusomtMatcherDemoTests/KiwiCusomtMatcherDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KiwiCustomMatcherDemo/KiwiCustomMatcherDemo-Prefix.pch";
+				INFOPLIST_FILE = "KiwiCustomMatcherDemoTests/KiwiCustomMatcherDemoTests-Info.plist";
+				PRODUCT_NAME = KiwiCustomMatcherDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -481,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B463E6818A7E6EF00B9B59C /* Build configuration list for PBXProject "KiwiCusomtMatcherDemo" */ = {
+		5B463E6818A7E6EF00B9B59C /* Build configuration list for PBXProject "KiwiCustomMatcherDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B463E9718A7E6EF00B9B59C /* Debug */,
@@ -490,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B463E9918A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCusomtMatcherDemo" */ = {
+		5B463E9918A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCustomMatcherDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B463E9A18A7E6EF00B9B59C /* Debug */,
@@ -499,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B463E9C18A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCusomtMatcherDemoTests" */ = {
+		5B463E9C18A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCustomMatcherDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B463E9D18A7E6EF00B9B59C /* Debug */,

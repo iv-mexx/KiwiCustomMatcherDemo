@@ -1,3 +1,3 @@
-target :KiwiCusomtMatcherDemoTests, :exclusive => true do
+target :KiwiCustomMatcherDemoTests, :exclusive => true do
     pod 'Kiwi/XCTest'
 end
