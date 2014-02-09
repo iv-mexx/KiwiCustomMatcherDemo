@@ -121,15 +121,11 @@
 		5B463EA718A7EE9A00B9B59C /* KiwiCustomMatcherDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5B463EA818A7EE9A00B9B59C /* InfoPlist.strings */,
-				5B463EAA18A7EE9A00B9B59C /* Images.xcassets */,
+				5B463EC318A7F02000B9B59C /* Supporting Files */,
 				5B463EAB18A7EE9A00B9B59C /* IVAppDelegate.h */,
 				5B463EAC18A7EE9A00B9B59C /* IVAppDelegate.m */,
 				5B463EAD18A7EE9A00B9B59C /* IVUser.h */,
 				5B463EAE18A7EE9A00B9B59C /* IVUser.m */,
-				5B463EAF18A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Info.plist */,
-				5B463EB018A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Prefix.pch */,
-				5B463EB118A7EE9A00B9B59C /* main.m */,
 			);
 			path = KiwiCustomMatcherDemo;
 			sourceTree = "<group>";
@@ -137,13 +133,33 @@
 		5B463EB818A7EEA200B9B59C /* KiwiCustomMatcherDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B463EB918A7EEA200B9B59C /* InfoPlist.strings */,
+				5B463EC418A7F02900B9B59C /* Supporting Files */,
 				5B463EBB18A7EEA200B9B59C /* IVUserMatcher.h */,
 				5B463EBC18A7EEA200B9B59C /* IVUserMatcher.m */,
 				5B463EBD18A7EEA200B9B59C /* IVUserSpecs.m */,
-				5B463EBE18A7EEA200B9B59C /* KiwiCustomMatcherDemoTests-Info.plist */,
 			);
 			path = KiwiCustomMatcherDemoTests;
+			sourceTree = "<group>";
+		};
+		5B463EC318A7F02000B9B59C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B463EA818A7EE9A00B9B59C /* InfoPlist.strings */,
+				5B463EAA18A7EE9A00B9B59C /* Images.xcassets */,
+				5B463EAF18A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Info.plist */,
+				5B463EB018A7EE9A00B9B59C /* KiwiCustomMatcherDemo-Prefix.pch */,
+				5B463EB118A7EE9A00B9B59C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B463EC418A7F02900B9B59C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B463EB918A7EEA200B9B59C /* InfoPlist.strings */,
+				5B463EBE18A7EEA200B9B59C /* KiwiCustomMatcherDemoTests-Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
