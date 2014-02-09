@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A28685A71A41B791332F87 /* libPods-KiwiCusomtMatcherDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CE69A0630D4F659BCFDEB6 /* libPods-KiwiCusomtMatcherDemoTests.a */; };
 		5B463E7118A7E6EF00B9B59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7018A7E6EF00B9B59C /* Foundation.framework */; };
 		5B463E7318A7E6EF00B9B59C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7218A7E6EF00B9B59C /* CoreGraphics.framework */; };
 		5B463E7518A7E6EF00B9B59C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7418A7E6EF00B9B59C /* UIKit.framework */; };
@@ -18,7 +19,9 @@
 		5B463E8B18A7E6EF00B9B59C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7018A7E6EF00B9B59C /* Foundation.framework */; };
 		5B463E8C18A7E6EF00B9B59C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B463E7418A7E6EF00B9B59C /* UIKit.framework */; };
 		5B463E9418A7E6EF00B9B59C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B463E9218A7E6EF00B9B59C /* InfoPlist.strings */; };
-		5B463E9618A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463E9518A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.m */; };
+		5B463EA118A7E70B00B9B59C /* IVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EA018A7E70B00B9B59C /* IVUser.m */; };
+		5B463EA318A7E88B00B9B59C /* IVUserSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EA218A7E88B00B9B59C /* IVUserSpecs.m */; };
+		5B463EA618A7E8A400B9B59C /* IVUserMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B463EA518A7E8A400B9B59C /* IVUserMatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30CE69A0630D4F659BCFDEB6 /* libPods-KiwiCusomtMatcherDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiCusomtMatcherDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B463E6D18A7E6EF00B9B59C /* KiwiCusomtMatcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiCusomtMatcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B463E7018A7E6EF00B9B59C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B463E7218A7E6EF00B9B59C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,7 +51,12 @@
 		5B463E8918A7E6EF00B9B59C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5B463E9118A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiCusomtMatcherDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5B463E9318A7E6EF00B9B59C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B463E9518A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiCusomtMatcherDemoTests.m; sourceTree = "<group>"; };
+		5B463E9F18A7E70B00B9B59C /* IVUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVUser.h; sourceTree = "<group>"; };
+		5B463EA018A7E70B00B9B59C /* IVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUser.m; sourceTree = "<group>"; };
+		5B463EA218A7E88B00B9B59C /* IVUserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUserSpecs.m; sourceTree = "<group>"; };
+		5B463EA418A7E8A400B9B59C /* IVUserMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVUserMatcher.h; sourceTree = "<group>"; };
+		5B463EA518A7E8A400B9B59C /* IVUserMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVUserMatcher.m; sourceTree = "<group>"; };
+		D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiCusomtMatcherDemoTests.xcconfig"; path = "Pods/Pods-KiwiCusomtMatcherDemoTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 				5B463E8A18A7E6EF00B9B59C /* XCTest.framework in Frameworks */,
 				5B463E8C18A7E6EF00B9B59C /* UIKit.framework in Frameworks */,
 				5B463E8B18A7E6EF00B9B59C /* Foundation.framework in Frameworks */,
+				17A28685A71A41B791332F87 /* libPods-KiwiCusomtMatcherDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,7 @@
 				5B463E8F18A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests */,
 				5B463E6F18A7E6EF00B9B59C /* Frameworks */,
 				5B463E6E18A7E6EF00B9B59C /* Products */,
+				D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +111,7 @@
 				5B463E7218A7E6EF00B9B59C /* CoreGraphics.framework */,
 				5B463E7418A7E6EF00B9B59C /* UIKit.framework */,
 				5B463E8918A7E6EF00B9B59C /* XCTest.framework */,
+				30CE69A0630D4F659BCFDEB6 /* libPods-KiwiCusomtMatcherDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +123,8 @@
 				5B463E8018A7E6EF00B9B59C /* IVAppDelegate.m */,
 				5B463E8218A7E6EF00B9B59C /* Images.xcassets */,
 				5B463E7718A7E6EF00B9B59C /* Supporting Files */,
+				5B463E9F18A7E70B00B9B59C /* IVUser.h */,
+				5B463EA018A7E70B00B9B59C /* IVUser.m */,
 			);
 			path = KiwiCusomtMatcherDemo;
 			sourceTree = "<group>";
@@ -129,8 +143,10 @@
 		5B463E8F18A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B463E9518A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.m */,
 				5B463E9018A7E6EF00B9B59C /* Supporting Files */,
+				5B463EA218A7E88B00B9B59C /* IVUserSpecs.m */,
+				5B463EA418A7E8A400B9B59C /* IVUserMatcher.h */,
+				5B463EA518A7E8A400B9B59C /* IVUserMatcher.m */,
 			);
 			path = KiwiCusomtMatcherDemoTests;
 			sourceTree = "<group>";
@@ -168,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B463E9C18A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCusomtMatcherDemoTests" */;
 			buildPhases = (
+				9ACDF474C96A46DEA4B29390 /* Check Pods Manifest.lock */,
 				5B463E8418A7E6EF00B9B59C /* Sources */,
 				5B463E8518A7E6EF00B9B59C /* Frameworks */,
 				5B463E8618A7E6EF00B9B59C /* Resources */,
+				04330A88D4714628B017CDC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,12 +253,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04330A88D4714628B017CDC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiCusomtMatcherDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ACDF474C96A46DEA4B29390 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B463E6918A7E6EF00B9B59C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B463E7D18A7E6EF00B9B59C /* main.m in Sources */,
+				5B463EA118A7E70B00B9B59C /* IVUser.m in Sources */,
 				5B463E8118A7E6EF00B9B59C /* IVAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +301,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B463E9618A7E6EF00B9B59C /* KiwiCusomtMatcherDemoTests.m in Sources */,
+				5B463EA618A7E8A400B9B59C /* IVUserMatcher.m in Sources */,
+				5B463EA318A7E88B00B9B59C /* IVUserSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +436,7 @@
 		};
 		5B463E9D18A7E6EF00B9B59C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiCusomtMatcherDemo.app/KiwiCusomtMatcherDemo";
@@ -406,6 +460,7 @@
 		};
 		5B463E9E18A7E6EF00B9B59C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D27D7F3D215A4828B7BF27FD /* Pods-KiwiCusomtMatcherDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiCusomtMatcherDemo.app/KiwiCusomtMatcherDemo";
@@ -442,6 +497,7 @@
 				5B463E9B18A7E6EF00B9B59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B463E9C18A7E6EF00B9B59C /* Build configuration list for PBXNativeTarget "KiwiCusomtMatcherDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +506,7 @@
 				5B463E9E18A7E6EF00B9B59C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
